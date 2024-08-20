@@ -1,10 +1,10 @@
 {
-    "projectId": "64cced226fa211528fbf",
-    "projectName": "VChat",
+    "projectId": "66c50dda00175710c937",
+    "projectName": "chat",
     "databases": [
         {
-            "$id": "production",
-            "name": "production",
+            "$id": "66c50f860020d3d0ad45",
+            "name": "chat",
             "$createdAt": "2024-03-27T07:20:16.887+00:00",
             "$updatedAt": "2024-03-27T07:20:16.887+00:00",
             "enabled": true
@@ -19,7 +19,7 @@
                 "update(\"users\")",
                 "delete(\"users\")"
             ],
-            "databaseId": "production",
+            "databaseId": "66c50f860020d3d0ad45",
             "name": "user-details",
             "enabled": true,
             "documentSecurity": false,
@@ -202,7 +202,7 @@
                 "update(\"users\")",
                 "delete(\"users\")"
             ],
-            "databaseId": "production",
+            "databaseId": "66c50f860020d3d0ad45",
             "name": "groups",
             "enabled": true,
             "documentSecurity": false,
@@ -316,7 +316,7 @@
                 "update(\"users\")",
                 "delete(\"users\")"
             ],
-            "databaseId": "production",
+            "databaseId": "66c50f860020d3d0ad45",
             "name": "group-messages",
             "enabled": true,
             "documentSecurity": false,
@@ -452,7 +452,7 @@
                 "update(\"users\")",
                 "delete(\"users\")"
             ],
-            "databaseId": "production",
+            "databaseId": "66c50f860020d3d0ad45",
             "name": "chats",
             "enabled": true,
             "documentSecurity": false,
@@ -541,7 +541,7 @@
                 "update(\"users\")",
                 "delete(\"users\")"
             ],
-            "databaseId": "production",
+            "databaseId": "66c50f860020d3d0ad45",
             "name": "chat-messages",
             "enabled": true,
             "documentSecurity": false,
@@ -682,7 +682,7 @@
         {
             "$id": "channels",
             "$permissions": [],
-            "databaseId": "production",
+            "databaseId": "66c50f860020d3d0ad45",
             "name": "channels",
             "enabled": true,
             "documentSecurity": false,
@@ -735,7 +735,7 @@
             "fileSecurity": true,
             "name": "user-avatars-status",
             "enabled": true,
-            "maximumFileSize": 52428800,
+            "maximumFileSize": 50000000,
             "allowedFileExtensions": [
                 "jpg",
                 "png",
@@ -762,7 +762,7 @@
             "fileSecurity": false,
             "name": "group-avatars",
             "enabled": true,
-            "maximumFileSize": 52428800,
+            "maximumFileSize": 50000000,
             "allowedFileExtensions": [
                 "jpg",
                 "png",
@@ -788,7 +788,7 @@
             "fileSecurity": false,
             "name": "chat-message-attachments",
             "enabled": true,
-            "maximumFileSize": 52428800,
+            "maximumFileSize": 50000000,
             "allowedFileExtensions": [
                 "jpg",
                 "png",
@@ -813,7 +813,7 @@
             "fileSecurity": false,
             "name": "group-message-attachments",
             "enabled": true,
-            "maximumFileSize": 52428800,
+            "maximumFileSize": 50000000,
             "allowedFileExtensions": [
                 "jpg",
                 "png",

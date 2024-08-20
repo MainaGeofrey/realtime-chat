@@ -1,7 +1,7 @@
 export const SERVER = {
   ENDPOINT: "https://cloud.appwrite.io/v1",
-  PROJECT_ID: import.meta.env.VITE_PROJECT_ID,
-  DATABASE_ID: import.meta.env.VITE_DATABASE_ID,
+  PROJECT_ID: "66c50dda00175710c937", //import.meta.env.VITE_PROJECT_ID,
+  DATABASE_ID: "66c50f860020d3d0ad45", //import.meta.env.VITE_DATABASE_ID,
   COLLECTION_ID_CHAT_MESSAGES: "chat-messages",
   COLLECTION_ID_CHATS: "chats",
   COLLECTION_ID_USERS: "user-details",
